@@ -1,0 +1,141 @@
+#cor3-translate-tooltip {
+  position: fixed;
+  z-index: 2147483647;
+  max-width: min(520px, calc(100vw - 24px));
+  max-height: min(360px, calc(100vh - 24px));
+  overflow: auto;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: rgba(18, 22, 28, 0.96);
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  box-shadow: 0 8px 26px rgba(0,0,0,.35);
+  pointer-events: none;
+  white-space: pre-wrap;
+  word-break: break-word;
+  display: none;
+}
+
+#cor3-translate-tooltip[data-loading="true"] {
+  opacity: .78;
+}
+
+#cor3-translator-status {
+  position: fixed;
+  right: 12px;
+  bottom: 12px;
+  z-index: 2147483647;
+  padding: 6px 9px;
+  border-radius: 8px;
+  background: rgba(0, 128, 80, .92);
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  pointer-events: none;
+}
+
+#cor3-ru-hover-translator-tooltip {
+  position: fixed;
+  z-index: 2147483647;
+  max-width: 420px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: rgba(20, 20, 20, 0.94);
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.35;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  pointer-events: none;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+
+#cor3-ru-hover-translator-tooltip {
+  max-width: min(520px, calc(100vw - 24px));
+  max-height: min(70vh, 620px);
+  overflow-y: auto;
+  white-space: pre-wrap;
+  overscroll-behavior: contain;
+}
+
+
+#cor3-ru-hover-translator-tooltip {
+  position: fixed;
+  z-index: 2147483647;
+  box-sizing: border-box;
+  max-width: min(560px, calc(100vw - 24px));
+  max-height: min(72vh, 620px);
+  padding: 34px 12px 12px 12px;
+  border-radius: 10px;
+  background: rgba(20, 20, 20, 0.96);
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.35;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  pointer-events: auto;
+  white-space: normal;
+  overflow: hidden;
+}
+
+#cor3-ru-hover-translator-tooltip .cor3-ru-hover-translator-tooltip-body {
+  max-height: calc(min(72vh, 620px) - 48px);
+  overflow-y: auto;
+  white-space: pre-wrap;
+  overscroll-behavior: contain;
+  padding-right: 6px;
+}
+
+#cor3-ru-hover-translator-tooltip .cor3-ru-hover-translator-tooltip-close {
+  position: absolute;
+  right: 8px;
+  top: 6px;
+  width: 22px;
+  height: 22px;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.16);
+  color: #fff;
+  cursor: pointer;
+  line-height: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+
+/* Conditional long-text mode.
+   For short translations, no close button and no internal scroll are shown.
+   For source text > 1200 characters, JS adds .is-long. */
+#cor3-ru-hover-translator-tooltip:not(.is-long) {
+  padding: 10px 12px;
+  overflow: visible;
+  pointer-events: none;
+}
+
+#cor3-ru-hover-translator-tooltip:not(.is-long) .cor3-ru-hover-translator-tooltip-close {
+  display: none;
+}
+
+#cor3-ru-hover-translator-tooltip:not(.is-long) .cor3-ru-hover-translator-tooltip-body {
+  max-height: none;
+  overflow: visible;
+  padding-right: 0;
+}
+
+#cor3-ru-hover-translator-tooltip.is-long {
+  padding: 34px 12px 12px 12px;
+  overflow: hidden;
+  pointer-events: auto;
+}
+
+#cor3-ru-hover-translator-tooltip.is-long .cor3-ru-hover-translator-tooltip-close {
+  display: block;
+}
+
+#cor3-ru-hover-translator-tooltip.is-long .cor3-ru-hover-translator-tooltip-body {
+  max-height: calc(min(72vh, 620px) - 48px);
+  overflow-y: auto;
+  padding-right: 6px;
+}
