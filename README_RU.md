@@ -131,3 +131,5 @@ manifest-v3
 ## Дисклеймер
 
 См. [NOTICE.md](NOTICE.md).
+
+[⬆ В начало](#cor3-ru-hover-translator)
