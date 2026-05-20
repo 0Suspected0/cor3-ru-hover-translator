@@ -67,7 +67,7 @@ LICENSE
 CHANGELOG.md
 docs/
 extension/
-  manifest.json        Манифест расширения Chrome, Manifest V3
+  manifest.json      Манифест расширения Chrome, Manifest V3
   content.js         Основная логика перевода при наведении
   style.css          Стили окна перевода
   popup.html         Popup-интерфейс расширения
