@@ -132,3 +132,5 @@ See [LICENSE](LICENSE).
 ## Notice
 
 See [NOTICE.md](NOTICE.md).
+
+[⬆ Back to top](#cor3-ru-hover-translator)
