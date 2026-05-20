@@ -127,8 +127,8 @@ manifest-v3
 
 ## License
 
-See `LICENSE`.
+See [LICENSE](LICENSE).
 
 ## Notice
 
-See `NOTICE.md`.
+See [NOTICE.md](NOTICE.md).
