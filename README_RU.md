@@ -25,11 +25,11 @@
 
 > **Предупреждение о спойлерах:** скриншоты могут содержать игровой текст, элементы интерфейса или контент, до которого пользователь ещё не дошёл.
 
-![browser toolbar](docs/images/docs/images/im0.png)
+![browser toolbar](docs/images/im0.png)
 
-![translate1](docs/images/docs/images/im1.png)
+![translate1](docs/images/im1.png)
 
-![translate2](docs/images/docs/images/im2.png)
+![translate2](docs/images/im2.png)
 
 ## Установка
 
