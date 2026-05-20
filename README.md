@@ -91,40 +91,6 @@ When translation is triggered, the selected visible English text is sent to Goog
 - The extension is not an official product.
 - The code is provided as-is, without warranty or support obligations.
 
-## Recommended GitHub repository metadata
-
-Repository name:
-
-```text
-cor3-ru-hover-translator
-```
-
-Description:
-
-```text
-Unofficial handmade Chrome extension for Russian hover translation on cor3.gg.
-```
-
-Topics:
-
-```text
-chrome-extension
-browser-extension
-translation
-translator
-hover-translation
-tooltip
-google-translate
-cor3
-cor3-gg
-russian
-ru
-russian-translation
-english-to-russian
-javascript
-manifest-v3
-```
-
 ## License
 
 See [LICENSE](LICENSE).
