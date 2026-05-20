@@ -26,11 +26,11 @@ The extension shows a Russian translation tooltip when the cursor is placed dire
 > **Spoiler warning:** Screenshots may contain in-game text, interface elements, or content that the user has not reached yet.
 
 
-![browser toolbar](docs/images/docs/images/im0.png)
+![browser toolbar](docs/images/im0.png)
 
-![translate1](docs/images/docs/images/im1.png)
+![translate1](docs/images/im1.png)
 
-![translate2](docs/images/docs/images/im2.png)
+![translate2](docs/images/im2.png)
 
 ## Installation
 
