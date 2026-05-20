@@ -90,40 +90,6 @@ extension/
 - Расширение не является официальным продуктом.
 - Код предоставляется как есть, без гарантий и обязательств поддержки.
 
-## Рекомендуемые метаданные репозитория GitHub
-
-Имя репозитория:
-
-```text
-cor3-ru-hover-translator
-```
-
-Описание:
-
-```text
-Unofficial handmade Chrome extension for Russian hover translation on cor3.gg.
-```
-
-Topics:
-
-```text
-chrome-extension
-browser-extension
-translation
-translator
-hover-translation
-tooltip
-google-translate
-cor3
-cor3-gg
-russian
-ru
-russian-translation
-english-to-russian
-javascript
-manifest-v3
-```
-
 ## Лицензия
 
 См. [LICENSE](LICENSE).
