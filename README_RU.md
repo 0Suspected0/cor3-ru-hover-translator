@@ -126,8 +126,8 @@ manifest-v3
 
 ## Лицензия
 
-См. `LICENSE`.
+См. [LICENSE](LICENSE).
 
 ## Дисклеймер
 
-См. `NOTICE.md`.
+См. [NOTICE.md](NOTICE.md).
